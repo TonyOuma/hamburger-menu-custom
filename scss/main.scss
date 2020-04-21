@@ -1,0 +1,32 @@
+@import 'config';
+@import 'menu';
+@import 'responsive';
+
+body {
+    background:
+        linear-gradient(to right,
+            rgba($primary, 0.9),
+            rgba($primary, 0.3)),
+        lighten(#000, 70%);
+    color: set-text-color($primary-color);
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 1rem;
+
+    img {
+        width: 20%;
+        margin-left: 10%;
+    }
+}
