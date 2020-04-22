@@ -22,6 +22,12 @@ $primary: #fff;
     }
 }
 
+@mixin media-sm {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
 @mixin media-md {
     @media screen and (min-width: 768px) {
         @content;

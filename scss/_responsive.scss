@@ -1,3 +1,12 @@
+@include media-sm {
+    header {
+        img {
+            width: 80% !important;
+            margin-left: 0 !important;
+        }
+    }
+}
+
 @include media-md {
     .menu-btn {
         visibility: hidden;
@@ -25,10 +34,5 @@
         }
     }
 
-    header {
-        img {
-            width: 80%;
-            margin-left: 0;
-        }
-    }
+
 }
